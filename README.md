@@ -233,7 +233,7 @@ quantum_bts_kathmandu/
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11
 - pip
 - Git
 
