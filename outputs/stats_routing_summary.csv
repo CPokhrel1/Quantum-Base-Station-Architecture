@@ -1,0 +1,5 @@
+Metric,Mean,Std,Min,Median,Max
+E2E fidelity,0.6952,0.1453,0.3945,0.6840,0.9776
+Path hops,2.51,1.34,1,2.0,6
+Total path dist (km),8.32,4.65,0.45,8.15,20.07
+Routing gain ΔF,0.03937,0.05592,-0.12058,0.03342,0.19680

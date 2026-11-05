@@ -1,0 +1,5 @@
+Category,Count,Pct
+QKD-ready  (F > 0.667),96,96.0%
+Entangled  (0.5 < F <= 0.667),1,1.0%
+Sub-threshold  (0 < F <= 0.5),0,0.0%
+No BTS in range,3,3.0%
