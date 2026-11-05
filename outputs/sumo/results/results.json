@@ -1,0 +1,284 @@
+{
+ "settings": {
+  "fcd": "ktm_fcd.xml",
+  "sites": "/home/chitran/qbts_submission_package(2)/sumo/qbs_sites.csv",
+  "out": "results",
+  "sample_step": 10.0,
+  "max_km": 4.5,
+  "grid_mc": 200,
+  "warmup": 900.0,
+  "n_candidates": 2,
+  "no_plot": false
+ },
+ "n_time_samples": 450,
+ "n_vehicles": 31482,
+ "n_samples": 4135520,
+ "overall": {
+  "samples": 4135520,
+  "coverage": 0.9952325221495725,
+  "mean_F": 0.8805643250429172,
+  "mean_QBER": 0.09256616871786144,
+  "keypos_of_all": 0.7043832456377916,
+  "keypos_of_covered": 0.7077574636693098,
+  "mean_SKR_bps_covered": 7865.65171014731,
+  "mean_speed_kmh": 15.913858550315325
+ },
+ "by_type": {
+  "bus": {
+   "samples": 64330,
+   "coverage": 0.9934400746152651,
+   "mean_F": 0.8695801311002329,
+   "mean_QBER": 0.09992546448675897,
+   "keypos_of_all": 0.6299549199440385,
+   "keypos_of_covered": 0.6341146648306941,
+   "mean_SKR_bps_covered": 6950.628909187423,
+   "mean_speed_kmh": 17.063846106015855
+  },
+  "car": {
+   "samples": 1319479,
+   "coverage": 0.9951670318360505,
+   "mean_F": 0.8763381566594998,
+   "mean_QBER": 0.0954282607083397,
+   "keypos_of_all": 0.6801858915526507,
+   "keypos_of_covered": 0.6834891729659996,
+   "mean_SKR_bps_covered": 7559.762379530943,
+   "mean_speed_kmh": 16.47745983983072
+  },
+  "motorcycle": {
+   "samples": 2751711,
+   "coverage": 0.9953058297183098,
+   "mean_F": 0.8828468508638048,
+   "mean_QBER": 0.09102222762887116,
+   "keypos_of_all": 0.7177261710986365,
+   "keypos_of_covered": 0.7211111898156634,
+   "mean_SKR_bps_covered": 8033.660391696472,
+   "mean_speed_kmh": 15.616720236972576
+  }
+ },
+ "by_speed_bin": {
+  "0-5": {
+   "samples": 2759388,
+   "coverage": 0.9999909400200334,
+   "mean_F": 0.9537284771401445,
+   "mean_QBER": 0.03808238926858618,
+   "keypos_of_all": 0.9993647142047439,
+   "keypos_of_covered": 0.9993737685110657,
+   "mean_SKR_bps_covered": 11597.901755359055,
+   "mean_speed_kmh": 0.11581557214860681
+  },
+  "5-10": {
+   "samples": 54429,
+   "coverage": 0.9993385878851347,
+   "mean_F": 0.906872010907997,
+   "mean_QBER": 0.07465741097788835,
+   "keypos_of_all": 0.9907034852743941,
+   "keypos_of_covered": 0.9913591822477157,
+   "mean_SKR_bps_covered": 4570.069572578611,
+   "mean_speed_kmh": 7.234037590255196
+  },
+  "10-20": {
+   "samples": 86179,
+   "coverage": 0.9944882163868227,
+   "mean_F": 0.8702592771022619,
+   "mean_QBER": 0.10138657988063786,
+   "keypos_of_all": 0.9128790076468746,
+   "keypos_of_covered": 0.9179384859516475,
+   "mean_SKR_bps_covered": 1387.131964531991,
+   "mean_speed_kmh": 15.144556144768446
+  },
+  "20-30": {
+   "samples": 98057,
+   "coverage": 0.9870891420296358,
+   "mean_F": 0.8066233102148452,
+   "mean_QBER": 0.14793997887602098,
+   "keypos_of_all": 0.2321302915651101,
+   "keypos_of_covered": 0.23516649275242532,
+   "mean_SKR_bps_covered": 33.03238636639502,
+   "mean_speed_kmh": 25.070184566119707
+  },
+  "30-50": {
+   "samples": 400804,
+   "coverage": 0.9805041865849642,
+   "mean_F": 0.7441817635669149,
+   "mean_QBER": 0.19128327133134698,
+   "keypos_of_all": 0.0,
+   "keypos_of_covered": 0.0,
+   "mean_SKR_bps_covered": 0.0,
+   "mean_speed_kmh": 41.51687380365465
+  },
+  "50-200": {
+   "samples": 736663,
+   "coverage": 0.9862895245179953,
+   "mean_F": 0.6855634555362973,
+   "mean_QBER": 0.23901481947334177,
+   "keypos_of_all": 0.0,
+   "keypos_of_covered": 0.0,
+   "mean_SKR_bps_covered": 0.0,
+   "mean_speed_kmh": 60.672491899280956
+  }
+ },
+ "by_distance_bin": {
+  "0-1": {
+   "samples": 1839886,
+   "coverage": 1.0,
+   "mean_F": 0.889531175105895,
+   "mean_QBER": 0.0887512424225355,
+   "keypos_of_all": 0.7523683532566692,
+   "keypos_of_covered": 0.7523683532566692,
+   "mean_SKR_bps_covered": 11412.031320986873,
+   "mean_speed_kmh": 13.151478724225308
+  },
+  "1-2": {
+   "samples": 1754110,
+   "coverage": 1.0,
+   "mean_F": 0.8834104685596605,
+   "mean_QBER": 0.08784493540264837,
+   "keypos_of_all": 0.7205397609043903,
+   "keypos_of_covered": 0.7205397609043903,
+   "mean_SKR_bps_covered": 5855.118997674461,
+   "mean_speed_kmh": 15.487187234551984
+  },
+  "2-3": {
+   "samples": 431244,
+   "coverage": 1.0,
+   "mean_F": 0.854422924278212,
+   "mean_QBER": 0.1111144868707768,
+   "keypos_of_all": 0.6135691163239373,
+   "keypos_of_covered": 0.6135691163239373,
+   "mean_SKR_bps_covered": 2564.7210811321597,
+   "mean_speed_kmh": 20.508021704649796
+  },
+  "3-4.5": {
+   "samples": 90564,
+   "coverage": 1.0,
+   "mean_F": 0.7677478806748055,
+   "mean_QBER": 0.1731913745260701,
+   "keypos_of_all": 0.002374011748597677,
+   "keypos_of_covered": 0.002374011748597677,
+   "mean_SKR_bps_covered": 1.1124648137053401,
+   "mean_speed_kmh": 51.061737511594
+  }
+ },
+ "speed_bins_below_50pct_keypos": [
+  "20-30",
+  "30-50",
+  "50-200"
+ ],
+ "handovers": {
+  "total": 80329,
+  "per_vehicle_hour": 6.992697411691879,
+  "note": "nearest-site changes between consecutive samples, no hysteresis filtering"
+ },
+ "per_vehicle_keypos_time_fraction": {
+  "mean": 0.4760465172819073,
+  "median": 0.4774774774774775,
+  "share_never": 0.07445524426656502,
+  "share_always": 0.008290451686678102
+ },
+ "per_site": {
+  "Thamel-New Road Hub": {
+   "attached_samples": 426031,
+   "keypos_samples": 322495
+  },
+  "Lalitpur South": {
+   "attached_samples": 176066,
+   "keypos_samples": 96542
+  },
+  "Tokha North": {
+   "attached_samples": 27679,
+   "keypos_samples": 3561
+  },
+  "Lazimpat-Chuchepati": {
+   "attached_samples": 523088,
+   "keypos_samples": 357657
+  },
+  "Nagarjun Foothills": {
+   "attached_samples": 77603,
+   "keypos_samples": 6510
+  },
+  "Bhaktapur East": {
+   "attached_samples": 26969,
+   "keypos_samples": 387
+  },
+  "Suryabinayak": {
+   "attached_samples": 18505,
+   "keypos_samples": 811
+  },
+  "Kirtipur Road": {
+   "attached_samples": 286475,
+   "keypos_samples": 215309
+  },
+  "Koteswor": {
+   "attached_samples": 327120,
+   "keypos_samples": 258175
+  },
+  "Shivapuri Ridge": {
+   "attached_samples": 29143,
+   "keypos_samples": 1300
+  },
+  "Satdobato-Ekantakuna": {
+   "attached_samples": 580001,
+   "keypos_samples": 504498
+  },
+  "Banepa Corridor": {
+   "attached_samples": 4225,
+   "keypos_samples": 265
+  },
+  "Gwarko": {
+   "attached_samples": 244023,
+   "keypos_samples": 192907
+  },
+  "Kirtipur": {
+   "attached_samples": 416634,
+   "keypos_samples": 364830
+  },
+  "Sunakothi": {
+   "attached_samples": 279482,
+   "keypos_samples": 205029
+  },
+  "Lubhu": {
+   "attached_samples": 64521,
+   "keypos_samples": 3755
+  },
+  "Thankot West": {
+   "attached_samples": 122070,
+   "keypos_samples": 103387
+  },
+  "Thankot Ridge": {
+   "attached_samples": 21244,
+   "keypos_samples": 12186
+  },
+  "Chandragiri": {
+   "attached_samples": 12193,
+   "keypos_samples": 1055
+  },
+  "Dakshinkali Road": {
+   "attached_samples": 68765,
+   "keypos_samples": 61799
+  },
+  "Khokana": {
+   "attached_samples": 62202,
+   "keypos_samples": 29664
+  },
+  "Kalanki": {
+   "attached_samples": 84187,
+   "keypos_samples": 38178
+  },
+  "Swayambhu": {
+   "attached_samples": 167863,
+   "keypos_samples": 122431
+  },
+  "Sitapaila": {
+   "attached_samples": 39332,
+   "keypos_samples": 8156
+  },
+  "Lubhu East": {
+   "attached_samples": 21910,
+   "keypos_samples": 1512
+  },
+  "Madhyapur Thimi": {
+   "attached_samples": 8473,
+   "keypos_samples": 592
+  }
+ }
+}
